@@ -5,8 +5,11 @@ header{
 	position: absolute;
 	top: 0;
 	z-index: 9999;
+	font-weight: bolder;
 	width: 100%;
 	background-color: transparent !important;
+	font-size: 30px;
+	letter-spacing: 15%;
 }
 .navbar-light {
 	
@@ -20,7 +23,7 @@ header{
 	padding-right: 15px;  
 }
 .navbar-light .navbar-nav .nav-link:hover{
-	color:#ccc;
+	color:var(--color-azul);
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
@@ -29,7 +32,7 @@ header{
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
-	color:#ff5518;
+	color:var(--color-azul);
 }
 
 
@@ -55,7 +58,7 @@ header{
 }
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
-  color: #ff5518;
+  color: var(--color-azul);
   text-decoration: none;
   background-color: transparent;
 }
